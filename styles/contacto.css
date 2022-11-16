@@ -1,0 +1,76 @@
+/*CONTACTO*/
+
+
+.templatemo_contacttitle {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	
+	
+}
+
+
+
+.templatemo_contact {
+    margin: 30px;
+    width: 350px;
+    margin-left: 15%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.templatemo_contactform input, textarea {
+    width: 350px;
+    background: #282828;
+    padding: 7px 10px;
+    margin: 0px 0px 10px 0px;
+    background-color: #FAFAFA;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0.5rem;
+    border: 2px solid #696969;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+	display: flex;
+	flex-direction: column;
+}
+
+.templatemo_contactform textarea {
+    height: 150px;
+	width: 350px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 0.5rem;
+	border: 2px solid #696969;
+	border-radius: 5px;
+	
+}
+
+
+.templatemo_contactform .btn{
+    background: rgb(51, 177, 51);
+    border: none;
+    border-radius: 2px;
+    color: black;
+	margin-right: 400px;
+	margin-left: 400px;
+    font-size: 1.1rem;
+    font-family: 'Montserrat';
+    padding: 1rem 1.5rem;
+    border: 2px solid #696969;
+    border-radius: 4px;
+}
+
+.templatemo_contactform .btn:hover {
+    background: #a6d82c;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+

@@ -1,0 +1,251 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+  }
+
+  h1{
+	font-size: 2rem;
+	font-weight: bold;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+	text-align: center;
+	text-transform: uppercase;
+    padding-top: 3.5rem;
+
+	color: black;
+   }
+
+
+   header{
+	display: flex;
+	justify-content: space-between;
+
+	box-sizing: border-box;
+	width: 100%;
+	height: 4rem;
+	padding: 0 5rem;
+
+	background-color: white;
+    }
+
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .logo img{
+        height: 5rem;
+    }
+   
+
+.ultimos{
+	font-weight: 700;
+
+}
+
+.options{
+	position: relative;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+    margin-left: 900px;
+	width: 7rem;
+}
+
+.options img:first-child{
+	width: 1.75rem;
+	height: 1.75rem;
+}
+
+.options img{
+	width: 2rem;
+}
+
+#user{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	height: 100%;
+}
+
+
+#user:hover .userMenu{
+	max-height: 10rem;
+}
+
+.userMenu{
+	position: absolute;
+	top: 4rem;
+	right: 0;
+
+	display: flex;
+	overflow: hidden;
+	flex-direction: column;
+
+	max-height: 0;
+
+	transition: max-height ease-in-out 0.5s 0.1s;
+
+	background-color: lightgray;
+}
+
+.userMenu a{
+	padding: 0.75rem 2rem;
+}
+
+#NP{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	height: 100%;
+}
+
+#NP:hover .NPMenu{
+	max-height: 10rem;
+	
+}
+
+.NPMenu{
+	position: absolute;
+	top: 4rem;
+	right: auto;
+
+	display: flex;
+	overflow: hidden;
+	flex-direction: column;
+
+	max-height: 0;
+
+	transition: max-height ease-in-out 0.5s 0.1s;
+
+	background-color: lightgray;
+}
+
+.NPMenu a{
+	padding: 0.75rem 2rem;
+	text-align: center;
+}
+
+#menu:hover a{
+	color: green;
+	
+}
+
+.userMenu:hover a{
+color: green;
+
+}
+
+
+   .contenedor {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: auto;
+    
+
+
+
+    }
+
+
+
+  .titulocolumna {
+
+
+    border: 1px solid black;
+    background-color: white;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+    
+
+    
+
+    
+
+ }
+
+ .itemtabla{
+   
+    border: 1px solid black;
+    background-color: white;
+    
+    text-align: center;
+    line-height: 20px;
+
+    
+    
+    
+ }
+
+ input{
+
+
+    border: 1px solid black;
+    background-color: white;
+    
+    text-align: center;
+    line-height: 20px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    grid-template-columns: repeat(10, 1fr);
+    
+ }
+
+ .editaritemtabla{
+  
+    color: green;
+    font-weight: bold;
+    
+    
+
+ }
+
+ .eliminaritemtabla{
+
+    color: brown;
+    font-weight: bold;
+    
+ }
+
+ .contenedor_submit{
+
+    color: green;
+    font-weight: bold;
+ }
+
+ main{
+
+    min-height: 50rem;
+ }
+
+ footer {
+
+	display: flex;
+	justify-content: center;
+    box-sizing: border-box;
+	width: 100%;
+	height: 5rem;
+	padding: 0 5rem;
+	text-align: center;
+	text-shadow: #474747;
+	align-items: center;
+	background-color: rgb(51, 177, 51);
+   
+
+}
+
+
